@@ -1,0 +1,40 @@
+{
+  "name": "tabular-to-mongo-loader",
+  "version": "1.0.0",
+  "description": "Parse and load data from tabular data files into mongoDB using Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaletelier/tabular-to-mongo-loader.git"
+  },
+  "keywords": [
+    "load",
+    "parse",
+    "csv",
+    "xls",
+    "tabular",
+    "data",
+    "mongodb",
+    "mongoose",
+    "read",
+    "table",
+    "file",
+    "create",
+    "update"
+  ],
+  "author": "Javier Letelier <letelier.javier@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaletelier/tabular-to-mongo-loader/issues"
+  },
+  "homepage": "https://github.com/jaletelier/tabular-to-mongo-loader#readme",
+  "dependencies": {
+    "async": "^2.2.0",
+    "fast-csv": "^2.4.0",
+    "request": "^2.81.0",
+    "xlsx": "^0.9.7"
+  }
+}
