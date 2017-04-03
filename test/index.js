@@ -30,7 +30,6 @@ function afterLoadCsv(){
   assert.deepEqual(tbcsv.getHeader(),['Codigo', 'Descripcion']);
   async.whilst(function(){return tbcsv.hasNext();},function(cb){
     tbcsv.getNextRow(function(row){
-      console.log(row);
       cb();
     });
   },function(err){
